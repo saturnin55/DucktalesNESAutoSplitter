@@ -25,7 +25,7 @@ Ducktales (NES) Autosplitter for LiveSplit
 
 ## Manual Installation (skip if you used the 'Activate' Button)
 
-- Download https://raw.githubusercontent.com/saturnin55/ChipnDaleAutoSplitter/master/chipndale.asl
+- Download https://raw.githubusercontent.com/saturnin55/DucktalesNESAutoSplitter/master/ducktales.asl
 - Edit Layout
 - Add Other /Scriptable Componment / Script Path: Browse to the "ducktales.asl" file you downloaded previously
 - Enable Start/Split/Reset feature here
