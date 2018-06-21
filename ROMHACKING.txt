@@ -1,0 +1,49 @@
+ducktale random notes
+---------------------
+amazon
+transylvania
+african mines
+himalayas
+moon
+transylvania2
+
+difficulty (0x00f9)
+	0 : easy
+	1 : normal
+	2 : hard
+	
+area id
+time
+	151 = hundreth on screen
+	155 = tenth
+	159 : unit
+score (8 character max)
+	0324, 0325, 0326, 0327, 0328, 0329, 032a01
+hp (005f)
+
+timer starts when first zone is selected
+-00:00.92 offset to start
+---
+0x0020:
+	hub : 73
+	jungle 6b
+	trans : a3
+	mines : e3
+		boss : zone e3, room = 94, diamond = 
+	hima : 13
+		boss : zone = 13, room = A1
+	moon : 43
+		boss : zone = 43, room = b8, cheese = 0x10
+		room : 66, 5f (ship), 58, b8 (boss room)
+
+save 1 = hymalayas completed 	A0 = 18
+save 2 = mines completed		A0 = 14
+save 3 = jungle completed		A0 = 11
+save 4 = transylvania completed A0 = 12
+save 5 = moon completed			A0 = 10
+
+moon + amazon + mines : a0 = 15
+moon + amazon + mines + translyvania = 17
+all reg zones completed : 0x00a0 => 0x1f
+last chest
+	zone = a3, room = a3, area = 1f, 
